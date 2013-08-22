@@ -1,0 +1,42 @@
+<scene>
+ <camera>
+   <origin>0.0 1.0 -4.0</origin>
+    <z>0.0 0.25 -1.0</z>
+    <y>0.0 1.0 0.0</y>
+    <yfov>27.0</yfov>
+    <xResolution>256</xResolution>
+    <yResolution>256</yResolution>
+  </camera>
+  <textures>
+    <Texture>
+      <file>spherenums.jpg</file>
+    </Texture>
+  </textures>
+  <lights>
+    <light class="PointLight">
+      <intensity>0.75 0.75 0.75</intensity>
+      <position>6.0 12.0 -6.0</position>
+    </light>
+    <light class="PointLight">
+      <intensity>0.25 0.25 0.25</intensity>
+      <position>-2.0 10.0 -5.0</position>
+    </light>
+  </lights>
+  <surfaces>
+    <surface class="Mesh">
+      <material class="Phong">
+        <diffuse>0.7 0.7 1.0</diffuse>
+        <specular>0.0 0.0 0.0</specular>
+        <exponent>1.0</exponent>
+        <texture>0</texture>
+       </material>
+      <position>0.0 0.0 0.0</position>
+      <rotation>0.0 90.0 0.0</rotation>
+      <filename>spherenums.off</filename>
+      <size>1 -1 1</size>
+      <breakang>1.0</breakang>
+      <invNormal>1.0</invNormal>
+      <UVfile>spherenums.uv.txt</UVfile>
+    </surface>
+   </surfaces>
+</scene>

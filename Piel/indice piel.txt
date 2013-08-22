@@ -1,0 +1,23 @@
+Introduccion
+
+Anatomia de la piel
+	- Epidermis
+	- Dermis
+	- Hypodermis
+
+Optica de la piel
+
+BRDF y BSSRDF
+
+Leyes de Beer y Snell
+
+Tecnicas de Rendering
+
+	- Analiticas
+	- Numericas
+	- Tiempo Real
+	- Basadas en imagen
+	- Nivel de Detalle
+	- Dispersión de aspereza
+	
+Bibliografia

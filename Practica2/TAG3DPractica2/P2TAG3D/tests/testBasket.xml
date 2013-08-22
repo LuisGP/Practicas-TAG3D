@@ -1,0 +1,84 @@
+<scene>
+  <camera>
+    <origin>0.0 0.3 -1.6</origin>
+    <z>0.0 0.5 -1.0</z>
+    <y>0.0 1.0 0.5</y>
+    <yfov>22.0</yfov>
+    <xResolution>1400</xResolution>
+    <yResolution>1050</yResolution>
+  </camera>
+  <lights>
+    <light class="PointLight">
+      <intensity>0.3 0.3 0.3</intensity>
+      <position>-5.0 3.0 -5.0</position>
+	</light>
+    <light class="PointLight">
+      <intensity>0.3 0.3 0.3</intensity>
+      <position>-5.0 3.0 5.0</position>
+    </light>
+    <light class="PointLight">
+      <intensity>0.3 0.3 0.3</intensity>
+      <position>5.0 3.0 -5.0</position>
+    </light>
+        <light class="PointLight">
+      <intensity>0.3 0.3 0.3</intensity>
+      <position>5.0 3.0 5.0</position>
+    </light>
+    <light class="PointLight">
+      <intensity>0.3 0.3 0.3</intensity>
+      <position>-7.0 3.0 0.0</position>
+    </light>
+    <light class="PointLight">
+      <intensity>0.3 0.3 0.3</intensity>
+      <position>7.0 3.0 0.0</position>
+    </light>
+  </lights>
+  <textures> 
+  	<Texture>
+  	  <file>basket//basket.jpg</file>
+  	</Texture>
+  	<Texture>
+  	  <file>basket//basketnormal.png</file>
+  	</Texture>
+  	<Texture>
+  	  <file>basket//basketsuelo.jpg</file>
+  	</Texture>
+  	<Texture>
+  	  <file>basket//basketsuelonorm.jpg</file>
+  	</Texture>
+  </textures>
+  <surfaces>
+  	<surface class="Sphere">
+     <material class="Phong">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <specular>0.1 0.1 0.1</specular>
+        <exponent>1</exponent>
+        <texture>0</texture>
+      </material>
+      <position>0.0 -0.5 1.0</position>
+      <radius>0.5</radius>
+      <bTexture>1</bTexture>
+      <toffset>0.35 0.0 0.0</toffset>
+    </surface>
+       <surface class="Quad">
+        <material class="ShinyPhong">
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <texture>2</texture>
+          <specular>1.0 1.0 1.0</specular>
+          <exponent>100.0</exponent>
+          <reflection>0.15 0.15 0.15</reflection>
+        </material>
+        <v0>-10.0 -1.0 -20.0</v0>
+        <v1>-10.0  -1.0 20.0</v1>
+        <v2>10.0 -1.0 20.0</v2>
+        <v3>10.0 -1.0 -20.0</v3>
+        <v0t>0.0 0.0 0.0</v0t>
+        <v1t>0.0 1.0 0.0</v1t>
+        <v2t>1.0 1.0 0.0</v2t>
+        <v3t>1.0 0.0 0.0</v3t>
+        <tscale>4.0 4.0 0.0</tscale>
+        <toffset>0.0 0.4 0.0</toffset>
+        <bTexture>3</bTexture>
+      </surface> 
+  </surfaces>
+</scene>

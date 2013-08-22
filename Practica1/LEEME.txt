@@ -1,0 +1,114 @@
+#########################################################
+
+Práctica 1 de TAG3D. Alejandro Ribao y Luis Gasco.
+
+#########################################################
+
+CARACTERÍSTICAS:
+
+- Gran rendimiento (> 50 FPS @ 800x600) con indicador de FPS en la barra de título.
+- 2 Modos de representación de polígonos rellenos (FLAT y SMOOTH).
+- Brújula señalando el norte.
+- Suavizado del terreno.
+- Truncado de los límites de los lagos.
+- Animaciones para la luz, el cielo, la lluvia, la superficie de los lagos y la cámara.
+- Animación de tiempo, con mediodia, tarde, ocaso, noche, amanecer y mañana, con velocidad controlable y representación del sol.
+- Efecto de tormenta.
+- Dia, noche y sus transiciones suaves y realistas.
+- Posibilidad de andar o flotar sobre el terreno y nadar en los lagos.
+- Deformaciones globales del terreno.
+- Deformación locales del terreno configurables por el usuario.
+- Vegetación de montaña (con y sin nieve) y de playa con posibilidad de poner y quitar árboles.
+- Alpha blending en el lago dependiente del ángulo de visión, y en las nubes dependiente de la nubosidad.
+- Cielo dinámico, reflejando el momento del día en el que nos encontramos y el tiempo que hace.
+- Z-Buffer, Backface Culling y control de la Depth Mask para que aparezcan los objetos en el orden correcto. 
+- Texturas para los árboles, cielo, lluvia y terreno.
+
+#########################################################
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+CONTROLES:
+
+Menú:
+	A través del botón derecho del ratón, podemos acceder a un menú desde el que se nos permite elegir las siguiente opciones:
+
+- WIREFRAME: Visualización en modo alámbrico.
+- POINTS: Visualización en forma de puntos.
+- FLAT: Visualización con sombreado plana.
+- SMOOTH: Visualización con sombreado suave.
+- Textura del terreno: Aplica un textura al terreno.
+- Cambiar tiempo: Activa o desactiva la tormenta.
+- Andar/Flotar: Alterna entre los modos andar o flotar.
+- Animacion: Inicia la animación de la cámara.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+Ratón:
+	Con el botón izquierdo del ratón, entramos en modo navegación, en el que podemos girar la cámara directamente con el ratón. Para salir de
+este modo, debemos volver a pulsar el botón izquierdo del ratón.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+Teclado:
+	Además hay controles adicionales accesibles por teclado.
+
+Movimiento de cámara:
+	En el modo de andar, no podemos salirnos de los límites del terreno, pero sí en el modo flotar.
+	
+- w: Mueve la cámara hacia delante
+- W: Mueve la cámara hacia delante (más rápido)
+- a: Mueve la cámara hacia atrás
+- A: Mueve la cámara hacia atrás (más rápido)
+- s: Desplaza la cámara hacia la izquierda
+- S: Desplaza la cámara hacia la izquierda (más rápido)
+- d: Desplaza la cámara hacia la derecha
+- D: Desplaza la cámara hacia la derecha (más rápido)
+- Flecha DERECHA: Gira la cámara hacia la derecha
+- Flecha IZQUIERDA: Gira la cámara hacia la izquierda
+- Flecha ARRIBA: Desplaza la cámara hacia arriba (sólo en modo flotar)
+- Flecha ABAJO: Desplaza la cámara hacia abajo (sólo en modo flotar)
+- z: Gira la cámara hacia abajo
+- Z: Gira la cámara hacia arriba
+- x, X: Inicia o detiene la animación de la cámara
+- p, P: Alterna entre los modos andar y flotar
+
+Zoom:
+	Existen límites en el zoom máximo y mínimo a fin de evitar efectos indeseados.
+	
+- '+' o '.': Zoom in (+)
+- '-' o ',': Zoom out (-)
+- '0' (cero): Resetea el zoom a su valor por defecto
+
+Modo de Renderizado:
+- ' ' (espacio): Cambia el modo de renderizado actual
+- f, F: Cambia entre el modo pantalla completa y ventana
+
+Tiempo:
+- 1: Incrementa la hora actual en 1 hora
+- 2: Decrementa la hora actual en 1 hora
+- o, O: Detiene o reanuda el paso del tiempo
+- t: Incrementa la velocidad de paso del tiempo
+- T: Decrementa la velocidad de paso del tiempo
+
+Deformación del terreno:
+	Las deformación locales se realiza sobre la posición actual del observador.
+	
+- g: Reduce la escala del terreno (XZ)
+- G: Aumenta la escala del terreno (XZ)
+- h: Reduce la altura del terreno (Y)
+- H: Aumenta la altura del terreno (Y)
+- n: Decrementa el radio de influencia de la deformación local
+- N: Incrementa el radio de influencia de la deformación local
+- m: Deformación local negativa del terreno (hoyo) 
+- M: Deformación local positiva del terreno (bulto)
+- c: Quita un árbol de la posición actual
+- C: Planta un árbol en la posición actual
+- q: Baja el nivel del agua
+- Q: Sube el nivel del agua
+- e: Baja la cota de nieve
+- E: Sube la cota de nieve
+
+Otros:
+- r, R: Activar o desactivar la tormenta.
+- ESCAPE: Salida de la aplicación.

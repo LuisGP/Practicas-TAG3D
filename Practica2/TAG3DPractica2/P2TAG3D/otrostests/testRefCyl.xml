@@ -1,0 +1,76 @@
+<scene>
+  <camera>
+    <origin>0.0 1.0 -4.0</origin>
+    <z>0.0 0.25 -1.0</z>
+    <y>0.0 1.0 0.0</y>
+    <yfov>27.0</yfov>
+    <xResolution>256</xResolution>
+    <yResolution>256</yResolution>
+  </camera>
+  <lights>
+    <light class="PointLight">
+      <intensity>0.75 0.75 0.75</intensity>
+      <position>6.0 12.0 -6.0</position>
+    </light>
+    <light class="PointLight">
+      <intensity>0.25 0.25 0.25</intensity>
+      <position>-2.0 10.0 -5.0</position>
+    </light>
+  </lights>
+  <surfaces>
+    <surface class="Sphere">
+      <material class="Phong">
+        <diffuse>1.0 0.7 0.7</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>10.0</exponent>
+      </material>
+      <position>-1.2 0.0 2.0</position>
+      <radius>1.0</radius>
+    </surface>
+    <surface class="Cylinder">
+      <material class="RefractionShinyPhong">
+        <diffuse>1 1 1</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>100.0</exponent>
+        <refraction>1 1 1</refraction>
+        <refractionCoef>1000</refractionCoef>
+        <reflection>0.0 0.0 0.0</reflection></material>      
+      <center1>0.0 -0.5 1.0</center1>
+      <center2>-1.0 -0.5 -0.5</center2>
+      <radius>0.5</radius>
+    </surface>
+    <surface class="Cylinder">
+      <material class="RefractionShinyPhong">
+        <diffuse>1 1 1</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>100.0</exponent>
+        <refraction>1 1 1</refraction>
+        <refractionCoef>1000</refractionCoef>
+        <reflection>0.0 0.0 0.0</reflection></material>
+      <center1>0.5 -1.0 -0.6</center1>
+      <height>1.5</height>
+      <radius>0.4</radius>
+    </surface>
+    <surface class="Sphere">
+      <material class="Phong">
+        <diffuse>1.0 0.0 0.7</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>1000.0</exponent>
+      </material>
+      <position>1.7 -0.25 2.0</position>
+      <radius>0.5</radius>
+    </surface>
+    <surface class="Triangle">
+      <material class="ShinyPhong">
+        <diffuse>0.3 0.3 0.3</diffuse>
+        <specular>0.0 0.0 0.0</specular>
+        <exponent>1.0</exponent>
+        <reflection>0.2 0.2 0.2</reflection>
+      </material>
+      <v0>500.0 -1.0 1000.0</v0>
+      <v1>0.0 -1.0 -5.0</v1>
+      <v2>-500.0 -1.0 1000.0</v2>
+    </surface>
+    
+  </surfaces>
+</scene>

@@ -1,0 +1,43 @@
+
+TARGET = 24_bump_map_torus
+
+UNAME := $(shell uname)
+
+SRCS = $(TARGET:=.c)
+OBJS = $(SRCS:.c=.o)
+
+CC = gcc
+ifdef CG_INC_PATH
+  CFLAGS = -I"$(CG_INC_PATH)"
+endif
+ifdef CG_LIB_PATH
+  CLINKFLAGS = -L"$(CG_LIB_PATH)"
+endif
+
+ifeq ($(UNAME), Darwin)
+  CLINKFLAGS += -framework OpenGL -framework GLUT -framework Cg
+else
+  ifeq ($(findstring CYGWIN, $(UNAME)), CYGWIN)
+    CFLAGS += -D_WIN32 -DGLUT_DISABLE_ATEXIT_HACK
+    CFLAGS += -I"C:\Program Files\NVIDIA Corporation\Cg\include"
+    CLINKFLAGS += -L"C:\Program Files\NVIDIA Corporation\Cg\lib"
+    CLINKFLAGS += -lcg -lcgGL -lglut32 -lglu32 -lopengl32
+  else
+    CLINKFLAGS += -L/usr/X11R6/lib64 -L/usr/X11R6/lib
+    CLINKFLAGS += -lCg -lCgGL -lglut -lGLU -lGL -lXi -lXmu -lX11 -lm -lpthread
+  endif
+endif
+
+all: $(TARGET)
+
+$(TARGET) : $(OBJS)
+	$(CC) $(CFLAGS) -o $(TARGET) $(OBJS) $(CLINKFLAGS)
+
+clean:
+	$(RM) $(TARGET) $(OBJS)
+
+clobber: clean
+	$(RM) *.bak *.o *~
+
+.PHONY: clean clobber
+

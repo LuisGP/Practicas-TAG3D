@@ -1,0 +1,90 @@
+Práctica 1 de TAG3D. Alejandro Ribao y Luis Gasco.
+
+Características extras:
+
+- Gran rendimiento (> 50 FPS @ 800x600) con indicador de FPS en la barra de título.
+- 2 Modos de representación de polígonos rellenos (FLAT y SMOOTH).
+- Brújula señalando el norte.
+- Backface culling.
+- Suavizado del terreno.
+- Suavizado del borde de los lagos.
+- Animación de tiempo, con mediodia, tarde, ocaso, noche, amanecer y mañana, con velocidad controlable.
+- Dia, noche y sus transiciones suaves y realistas.
+- Posibilidad de andar o flotar sobre el terreno y nadar en los lagos.
+- Deformación del terreno configurable por el usuario.
+- Alpha blending en el lago dependiente del ángulo de visión.
+- Vegetación de montaña y de playa.
+- Cielo dinámico, reflejando el momento del día en el que nos encontramos, con esfera solar.
+
+- ALEX - CONFIRMA xD: Texturas en el terreno y reflejo en el lago.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+CONTROLES:
+
+Menú:
+	A través del botón derecho del ratón, podemos acceder a un menú desde el que se nos permite elegir las siguiente opciones:
+
+- WIREFRAME: Visualización en modo alámbrico.
+- POINTS: Visualización en forma de puntos.
+- FLAT: Visualización con sombreado plana.
+- SMOOTH: Visualización con sombreado suave.
+- Textura del terreno: Aplica un textura al terreno.
+- Andar/Flotar: Alterna entre los modos andar o flotar.
+- Animacion: Inicia la animación de la cámara.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+Ratón:
+	Con el botón izquierdo del ratón, entramos en modo navegación, en el que podemos girar la cámara directamente con el ratón. Para salir de
+este modo, debemos volver a pulsar el botón izquierdo del ratón.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+Teclado:
+	Además hay controles adicionales accesibles por teclado.
+
+Movimiento de cámara:
+	En el modo de andar, no podemos salirnos de los límites del terreno, pero sí en el modo flotar.
+
+- w, W: Mueve la cámara hacia delante
+- a, A: Mueve la cámara hacia atrás
+- s, S: Desplaza la cámara hacia la izquierda
+- d, D: Desplaza la cámara hacia la derecha
+- Flecha DERECHA: Gira la cámara hacia la derecha
+- Flecha IZQUIERDA: Gira la cámara hacia la izquierda
+- Flecha ARRIBA: Desplaza la cámara hacia arriba
+- Flecha ABAJO: Desplaza la cámara hacia abajo
+- z: Gira la cámara hacia abajo
+- Z: Gira la cámara hacia arriba
+- x, X: Inicia o detiene la animación de la cámara
+- p, P: Alterna entre los modos andar y flotar
+
+Zoom:
+	Existen límites en el zoom máximo y mínimo a fin de evitar efectos indeseados.
+
+- '+' o '.': Zoom in (+)
+- '-' o ',': Zoom out (-)
+- '0' (cero): Resetea el zoom a su valor por defecto
+
+Modo de Renderizado:
+- ' ' (espacio): Cambia el modo de renderizado actual
+- f, F: Cambia entre el modo pantalla completa y ventana
+
+Tiempo:
+- 1: Incrementa la hora actual en 1 hora
+- 2: Decrementa la hora actual en 1 hora
+- o, O: Detiene o reanuda el paso del tiempo
+- t: Incrementa la velocidad de paso del tiempo
+- T: Decrementa la velocidad de paso del tiempo
+
+Deformación del terreno:
+	La deformación se realiza sobre la posición actual del observador.
+
+- n: Decrementa el radio de influencia de la deformación
+- N: Incrementa el radio de influencia de la deformación
+- m: Deformación negativa del terreno (hoyo)
+- M: Deformación positiva del terreno (bulto)
+
+Otros:
+- ESCAPE: Salida de la aplicación.

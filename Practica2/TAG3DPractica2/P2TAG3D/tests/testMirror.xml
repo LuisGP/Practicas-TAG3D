@@ -1,0 +1,92 @@
+<scene>
+ <camera>
+   <origin>0.0 1.0 -4.0</origin>
+   <z>0.0 0.25 -1.0</z>
+   <y>0.0 1.0 0.0</y>
+   <yfov>27.0</yfov>
+   <xResolution>1280</xResolution>
+   <yResolution>1024</yResolution>
+ </camera>
+ <lights>
+   <light class="PointLight">
+     <intensity>0.5 0.5 0.5</intensity>
+     <position>6.0 12.0 -6.0</position>
+   </light>
+   <light class="AreaLight">
+     <intensity>0.5 0.5 0.5</intensity>
+     <position>-2.0 10.0 -5.0</position>
+     <object class="Sphere">
+	    <material class="Lambert">
+	      <diffuse>1.0 0.7 0.7</diffuse>
+	    </material>
+	    <position>-2 10.0 -5.0</position>
+	    <radius>1</radius>
+	  </object>
+	  <nsamples>3</nsamples>
+   </light>
+ </lights>
+ <textures>
+ 	<Texture>
+ 	  <file>normal.jpg</file>
+ 	</Texture>
+ 	<Texture>
+ 	  <file>earth.jpg</file>
+ 	</Texture>
+ 	<Texture>
+ 		<file>crossnrm.jpg</file>
+ 	</Texture>
+ </textures>
+ <surfaces>
+   <surface class="Sphere">
+     <material class="ShinyPhong">
+       <diffuse>1.0 0.7 0.7</diffuse>
+       <specular>0.7 0.7 0.7</specular>
+       <exponent>10.0</exponent>
+       <reflection>0.3 0.3 0.3</reflection>
+     </material>
+     <bTexture>0</bTexture>
+     <tscale>3.0 3.0 0.0</tscale>
+     <position>-0.5 0.0 0.0</position>
+     <radius>1.0</radius>
+   </surface>
+   <surface class="Sphere">
+     <material class="ShinyPhong">
+       <diffuse>1.0 1.0 1.0</diffuse>
+       <specular>0.7 0.7 0.7</specular>
+       <exponent>100.0</exponent>
+       <reflection>0.8 0.8 0.8</reflection>
+       <texture>1</texture>
+     </material>
+     <position>1.5 -0.25 1.0</position>
+     <radius>0.75</radius>
+   </surface>
+   <surface class="Triangle">
+     <material class="ShinyPhong">
+       <diffuse>0.8 0.8 0.8</diffuse>
+       <specular>0.0 0.0 0.0</specular>
+       <exponent>1.0</exponent>
+       <reflection>0.3 0.3 0.3</reflection>
+     </material>
+     <v0>500.0 -1.0 1000.0</v0>
+     <v1>0.0 -1.0 -500.0</v1>
+     <v2>-500.0 -1.0 1000.0</v2>
+     <bTexture>2</bTexture>
+     <v0t>0.0 1000.0 0.0</v0t>
+     <v1t>1000.0 1000.0 0.0</v1t>
+     <v2t>1000.0 0.0 0.0</v2t>
+   </surface>
+   <surface class="Triangle">
+     <material class="RefractionShinyPhong">
+       <diffuse>0.2 0.2 0.2</diffuse>
+       <specular>0 0 0</specular>
+       <exponent>1</exponent>
+       <refraction>1 1 1</refraction>
+       <refractionCoef>1.5</refractionCoef>
+       <reflection>0 0 0</reflection>
+     </material>
+     <v0>0.0 1.0 -1.5</v0>
+     <v1>1.0 -1.0 -1.5</v1>
+     <v2>-1.0 -1.0 -1.5</v2>
+   </surface>
+ </surfaces>
+</scene>

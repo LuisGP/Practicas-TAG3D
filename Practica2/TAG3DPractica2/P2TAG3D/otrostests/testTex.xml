@@ -1,0 +1,51 @@
+<scene>
+  <camera>
+    <origin>0.0 0.0 -1.6</origin>
+    <z>0.0 0.0 -1.0</z>
+    <y>0.0 1.0 0.0</y>
+    <yfov>30.0</yfov>
+    <xResolution>512</xResolution>
+    <yResolution>512</yResolution>
+  </camera>
+  <lights>
+    <light class="PointLight">
+      <intensity>1.0 1.0 1.0</intensity>
+      <position>0.0 0.0 -5.0</position>
+    </light>
+  </lights>
+  <textures>
+  	<Texture>
+  	  <file>tex//earth.jpg</file>
+  	  <filter>1</filter>
+  	</Texture>
+  	<Texture>
+  	  <file>tex//checker.png</file>
+  	</Texture>
+  </textures>
+  <surfaces>
+  	<surface class="Sphere">
+     <material class="Lambert">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <texture>0</texture>
+        <toffset>0.0 0.0 0.0</toffset>
+        <tscale>1.0 1.0 0.0</tscale>
+      </material>
+      <position>0.0 -0.5 1.0</position>
+      <radius>0.5</radius>
+    </surface>
+       <surface class="Quad">
+        <material class="Lambert">
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <texture>1</texture>
+        </material>
+        <v0>-1.0 -1.0 0.0</v0>
+        <v1>-1.0  -1.0 2.0</v1>
+        <v2>1.0 -1.0 2.0</v2>
+        <v3>1.0 -1.0 0.0</v3>
+        <v0t>0.0 0.0 0.0</v0t>
+        <v1t>0.0 1.0 0.0</v1t>
+        <v2t>1.0 1.0 0.0</v2t>
+        <v3t>1.0 0.0 0.0</v3t>
+      </surface> 
+  </surfaces>
+</scene>

@@ -1,0 +1,37 @@
+<scene>
+ <camera>
+    <origin>0.0 1.0 -4.0</origin>
+    <z>0.0 0.25 -1.0</z>
+    <y>0.0 1.0 0.0</y>
+    <yfov>27.0</yfov>
+    <xResolution>256</xResolution>
+    <yResolution>256</yResolution>
+  </camera>
+  <lights>
+    <light class="PointLight">
+      <intensity>0.75 0.75 0.75</intensity>
+      <position>6.0 12.0 -6.0</position>
+    </light>
+    <light class="PointLight">
+      <intensity>0.25 0.25 0.25</intensity>
+      <position>-2.0 10.0 -5.0</position>
+    </light>
+  </lights>
+  
+  <surfaces>
+    <surface class="Mesh">
+      <material class="RefractionShinyPhong">
+        <diffuse>1 1 1</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>100.0</exponent>
+        <refraction>1 1 1</refraction>
+        <refractionCoef>1</refractionCoef>
+        <reflection>0.0 0.0 0.0</reflection>
+      </material>
+      <position>0.0 0.0 0.0</position>
+      <filename>teapotproj.off</filename>
+      <size>2.5 2.5 2.5</size>
+      <breakang>1.0</breakang>
+    </surface>
+   </surfaces>
+</scene>

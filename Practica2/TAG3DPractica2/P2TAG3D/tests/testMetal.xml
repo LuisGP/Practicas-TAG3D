@@ -1,0 +1,54 @@
+<scene>
+  <camera>
+    <origin>0.0 1.0 -4.0</origin>
+    <z>0.0 0.25 -1.0</z>
+    <y>0.0 1.0 0.0</y>
+    <yfov>27.0</yfov>
+    <xResolution>1024</xResolution>
+    <yResolution>1024</yResolution>
+  </camera>
+  <lights>
+    <light class="PointLight">
+      <intensity>0.75 0.75 0.75</intensity>
+      <position>6.0 12.0 -6.0</position>
+    </light>
+    <light class="PointLight">
+      <intensity>0.25 0.25 0.25</intensity>
+      <position>-2.0 10.0 -5.0</position>
+    </light>
+  </lights>
+  <surfaces>
+    <surface class="Cylinder">
+       <material class="MetalPhong">
+        <diffuse>0.7 0.7 0.7</diffuse>
+        <specular>1.0 1.0 1.0</specular>
+        <exponent>10.0</exponent>
+        <reflection>0.4 0.4 0.4</reflection>
+      </material>
+      <center1>-1.25 0.0 0.0</center1>
+      <radius>1.0</radius>
+      <center2>0.75 0.0 3.0</center2>
+    </surface>
+    <surface class="Sphere">
+       <material class="MetalPhong">
+        <diffuse>0.78 0.72 0.32</diffuse>
+        <specular>1.0 1.0 1.0</specular>
+        <exponent>10.0</exponent>
+        <reflection>0.4 0.4 0.4</reflection>
+      </material>
+      <position>1.0 -0.25 0.0</position>
+      <radius>0.75</radius>
+    </surface>
+    <surface class="Triangle">
+      <material class="ShinyPhong">
+        <diffuse>0.8 0.8 0.8</diffuse>
+        <specular>0.0 0.0 0.0</specular>
+        <exponent>1.0</exponent>
+        <reflection>0.2 0.2 0.2</reflection>
+      </material>
+      <v0>500.0 -1.0 1000.0</v0>
+      <v1>0.0 -1.0 -5.0</v1>
+      <v2>-500.0 -1.0 1000.0</v2>
+    </surface>
+  </surfaces>
+</scene>

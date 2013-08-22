@@ -1,0 +1,58 @@
+<scene>
+  <camera>
+    <origin>0.0 0.0 -4.0</origin>
+    <z>0.0 0.0 -1.0</z>
+    <y>0.0 1.0 0.0</y>
+    <yfov>25.0</yfov>
+    <xResolution>1000</xResolution>
+    <yResolution>625</yResolution>
+  </camera>
+  <lights>
+    <light class="PointLight">
+      <intensity>1.0 1.0 1.0</intensity>
+      <position>-0.0 0.4 -2.0</position>
+    </light>
+  </lights>
+  <surfaces>
+     <surface class="Cylinder">
+      <material class="Lambert">
+        <diffuse>1.0 0.7 0.7</diffuse>
+      </material>
+      <center1>-1.5 -1.0 -0.6</center1>
+      <height>2.0</height>
+      <radius>0.4</radius>
+    </surface>
+     <surface class="Cylinder">
+      <material class="Phong">
+        <diffuse>1.0 0.7 0.7</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>10.0</exponent>
+      </material>
+      <center1>0.0 -1.0 -0.6</center1>
+      <height>2.0</height>
+      <radius>0.4</radius>
+    </surface>
+     <surface class="Cylinder">
+      <material class="ShinyPhong">
+        <diffuse>0.5 1.0 0.5</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>10.0</exponent>
+        <reflection>0.2 0.2 0.2</reflection>
+      </material>
+      <center1>1.5 -1.0 -0.6</center1>
+      <height>2.0</height>
+      <radius>0.4</radius>
+    </surface>
+    <surface class="Triangle">
+      <material class="ShinyPhong">
+        <diffuse>0.8 0.8 0.8</diffuse>
+        <specular>0.0 0.0 0.0</specular>
+        <exponent>1.0</exponent>
+        <reflection>0.2 0.2 0.2</reflection>
+      </material>
+      <v0>5.0 -1.0 2.0</v0>
+      <v1>0.0 -1.0 -50.0</v1>
+      <v2>-5.0 -1.0 2.0</v2>
+    </surface>
+  </surfaces>
+</scene>

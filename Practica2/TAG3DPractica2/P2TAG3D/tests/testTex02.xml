@@ -1,0 +1,32 @@
+<scene>
+  <camera>
+    <origin>0.0 0.0 -1.6</origin>
+    <z>0.0 0.0 -1.0</z>
+    <y>0.0 1.0 0.0</y>
+    <yfov>25.0</yfov>
+    <xResolution>512</xResolution>
+    <yResolution>512</yResolution>
+  </camera>
+  <lights>
+    <light class="PointLight">
+      <intensity>1.0 1.0 1.0</intensity>
+      <position>0.0 0.0 -5.0</position>
+    </light>
+  </lights>
+  <textures>
+  	<Texture>
+  	  <file>tex//earth.jpg</file>
+  	  <filter>0</filter>
+  	</Texture>
+  </textures>
+  <surfaces>
+  	<surface class="Sphere">
+     <material class="Lambert">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <texture>0</texture>
+      </material>
+      <position>0.0 -0.5 3.0</position>
+      <radius>3</radius>
+    </surface>
+  </surfaces>
+</scene>

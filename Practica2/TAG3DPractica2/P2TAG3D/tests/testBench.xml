@@ -1,0 +1,144 @@
+<scene>
+  <camera>
+    <origin>0.0 0.0 -1.2</origin>
+    <z>0.0 0.0 -1.0</z>
+    <y>0.0 1.0 0.0</y>
+    <yfov>45.0</yfov>
+    <xResolution>768</xResolution>
+    <yResolution>768</yResolution>
+  </camera>
+  <lights>
+    <light class="PointLight">
+      <intensity>1.0 1.0 1.0</intensity>
+      <position>0.0 5.0 -5.0</position>
+    </light>
+  </lights>
+  <surfaces>
+    <surface class="Sphere">
+      <material class="Phong">
+        <diffuse>1.0 0.7 0.7</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>10.0</exponent>
+      </material>
+      <position>0.0 0.0 10.0</position>
+      <radius>10.0</radius>
+    </surface>
+    <surface class="Sphere">
+      <material class="Phong">
+        <diffuse>1.0 0.7 0.7</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>10.0</exponent>
+      </material>
+      <position>0.0 0.0 11.0</position>
+      <radius>10.0</radius>
+    </surface>
+    <surface class="Sphere">
+      <material class="Phong">
+        <diffuse>1.0 0.7 0.7</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>10.0</exponent>
+      </material>
+      <position>0.0 0.0 12.0</position>
+      <radius>10.0</radius>
+    </surface>
+      <surface class="Sphere">
+      <material class="Phong">
+        <diffuse>1.0 0.7 0.7</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>10.0</exponent>
+      </material>
+      <position>0.0 0.0 13.0</position>
+      <radius>10.0</radius>
+    </surface>
+    <surface class="Sphere">
+      <material class="Phong">
+        <diffuse>1.0 0.7 0.7</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>10.0</exponent>
+      </material>
+      <position>0.0 0.0 14.0</position>
+      <radius>10.0</radius>
+    </surface>
+    <surface class="Sphere">
+      <material class="Phong">
+        <diffuse>1.0 0.7 0.7</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>10.0</exponent>
+      </material>
+      <position>0.0 0.0 15.0</position>
+      <radius>10.0</radius>
+    </surface>
+    <surface class="Sphere">
+      <material class="Phong">
+        <diffuse>1.0 0.7 0.7</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>10.0</exponent>
+      </material>
+      <position>0.0 0.0 15.0</position>
+      <radius>10.0</radius>
+    </surface>
+    <surface class="Sphere">
+      <material class="Phong">
+        <diffuse>1.0 0.7 0.7</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>10.0</exponent>
+      </material>
+      <position>0.0 0.0 15.0</position>
+      <radius>10.0</radius>
+    </surface>
+    <surface class="Sphere">
+      <material class="Phong">
+        <diffuse>1.0 0.7 0.7</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>10.0</exponent>
+      </material>
+      <position>0.0 0.0 15.0</position>
+      <radius>10.0</radius>
+    </surface>
+    <surface class="Sphere">
+      <material class="Phong">
+        <diffuse>1.0 0.7 0.7</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>10.0</exponent>
+      </material>
+      <position>0.0 0.0 15.0</position>
+      <radius>10.0</radius>
+    </surface>
+    <surface class="Sphere">
+      <material class="Phong">
+        <diffuse>1.0 0.7 0.7</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>10.0</exponent>
+      </material>
+      <position>0.0 0.0 15.0</position>
+      <radius>10.0</radius>
+    </surface>
+    <surface class="Sphere">
+      <material class="Phong">
+        <diffuse>1.0 0.7 0.7</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>10.0</exponent>
+      </material>
+      <position>0.0 0.0 15.0</position>
+      <radius>10.0</radius>
+    </surface>
+    <surface class="Sphere">
+      <material class="Phong">
+        <diffuse>1.0 0.7 0.7</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>10.0</exponent>
+      </material>
+      <position>0.0 0.0 15.0</position>
+      <radius>10.0</radius>
+    </surface>
+    <surface class="Sphere">
+      <material class="Phong">
+        <diffuse>1.0 0.7 0.7</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>10.0</exponent>
+      </material>
+      <position>0.0 0.0 15.0</position>
+      <radius>10.0</radius>
+    </surface>
+  </surfaces>
+</scene>

@@ -1,0 +1,71 @@
+<scene>
+  <camera>
+    <origin>0.0 0.0 -30.0</origin>
+    <z>0.0 0.0 -1.0</z>
+    <y>0.0 1.0 0.0</y>
+    <yfov>45.0</yfov>
+    <xResolution>100</xResolution>
+    <yResolution>100</yResolution>
+    <compatMode>1</compatMode>
+  </camera>
+  <lights>
+    <light class="PointLight">
+      <intensity>1.0 1.0 1.0</intensity>
+      <position>0.0 5.0 -5</position>
+	</light>
+  </lights>
+  <surfaces>
+    <surface class="Quad">
+      <material class="Lambert">
+      <diffuse>1.0 1.0 1.0</diffuse>
+      </material>
+      <v0>10.0 -10.0 -10.0</v0>
+      <v1>-10.0 -10.0 -10.0</v1>
+      <v2>-10.0 -10.0 10.0</v2>
+      <v3>10.0 -10.0 10.0</v3>
+	</surface> 
+<!--	<surface class="Sphere">
+	  <material class = "Lambert">
+	    <diffuse>1.0 1.0 1.0</diffuse>
+	  </material>
+	  <radius>3</radius>
+	  <position>0 -7 -8</position>
+	</surface> --> 
+    <surface class="Quad">
+      <material class="Lambert">
+        <diffuse>1.0 1.0 1.0</diffuse>
+      </material>
+      <v0>10.0 10.0 10.0</v0>
+      <v1>-10.0 10.0 10.0</v1>
+      <v2>-10.0 10.0 -10.0</v2>
+      <v3>10.0 10.0 -10.0</v3> 
+    </surface>    
+    <surface class="Quad">
+      <material class="Lambert">
+        <diffuse>1.0 1.0 1.0</diffuse>
+      </material>
+      <v0>-10.0 -10.0 10.0</v0>
+      <v1>-10.0 10.0 10.0</v1>
+      <v2>10.0 10.0 10.0</v2>
+      <v3>10.0 -10.0 10.0</v3> 
+    </surface>  
+    <surface class="Quad">
+      <material class="Lambert">
+        <diffuse>1.0 0.5 0.5</diffuse>
+      </material>
+      <v0>10.0 -10.0 -10.0</v0>
+      <v1>10.0 -10.0 10.0</v1>
+      <v2>10.0 10.0 10.0</v2>
+      <v3>10.0 10.0 -10.0</v3> 
+    </surface>  
+    <surface class="Quad">
+      <material class="Lambert">
+        <diffuse>0.5 0.5 1.0</diffuse>
+      </material>
+      <v0>-10.0 10.0 -10.0</v0>
+      <v1>-10.0 10.0 10.0</v1>
+      <v2>-10.0 -10.0 10.0</v2>
+      <v3>-10.0 -10.0 -10.0</v3> 
+    </surface>
+  </surfaces>
+</scene>

@@ -1,0 +1,40 @@
+// Funcion para deformar el terreno
+void deformar(int n_alt, int i, int j, int alcance, void (*f), bool suave){
+	/*
+		n_alt: nueva altura
+		i, j: vertice objetivo
+		alcance: vertices vecinos afectados
+		f: funcion que determina la deformacion
+		suave: aplicar suavizado
+	*/
+}
+
+
+setTypeMaterial(WATER);
+	int alpha;
+	GLfloat* aux;
+	GLfloat* aux2;
+	for(i = M_ALTO-1; i > -M_ALTO; i--){
+		glEnable(GL_COLOR_MATERIAL);
+		glBegin(GL_TRIANGLE_STRIP);
+		
+		for(j = M_ANCHO-1; j > -M_ANCHO; j--){
+			aux = lago[i+M_ALTO-1][j+M_ANCHO];
+			aux2 = lago[i+M_ALTO][j+M_ANCHO];			
+			if(vertices[i+M_ALTO-1][j+M_ANCHO][1] < aux[1]+2 || 
+				vertices[i+M_ALTO][j+M_ANCHO][1] < aux2[1]+2){
+
+				glNormal3fv(normalesagua[i+M_ALTO-1][j+M_ANCHO]);
+				alpha = anguloLago(aux[0], aux[1], aux[2]);
+				//setIntColorMaterial (paleta_agua[0], alpha);
+				glColor4f(colorcielo[0]+.5,colorcielo[1]+.3,colorcielo[2],alpha/255.0);
+				glVertex3fv(aux);
+				glNormal3fv(normalesagua[i+M_ALTO][j+M_ANCHO]);
+				alpha = anguloLago(aux2[0], aux2[1], aux2[2]);
+				//setIntColorMaterial (paleta_agua[0], alpha);
+				glColor4f(colorcielo[0]+.5,colorcielo[1]+.3,colorcielo[2],alpha/255.0);
+				glVertex3fv(aux2);
+			}
+		}
+		glEnd();
+	}

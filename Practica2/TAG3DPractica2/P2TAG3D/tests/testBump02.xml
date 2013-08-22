@@ -1,0 +1,59 @@
+<scene>
+  <camera>
+    <origin>0.0 2.0 -1.6</origin>
+    <z>0.0 1.0 -1.0</z>
+    <y>0.0 1.0 0</y>
+    <yfov>30.0</yfov>
+    <xResolution>1024</xResolution>
+    <yResolution>1024</yResolution>
+  </camera>
+  <lights>
+    <light class="PointLight">
+      <intensity>1.0 1.0 1.0</intensity>
+      <position>0.0 10.0 5.0</position>
+    </light>
+  </lights>
+  <textures>
+  	<Texture>
+  	  <file>tex//normal.jpg</file>
+  	</Texture>
+  	<Texture>
+  	  <file>tex//cara.jpg</file>
+  	</Texture>
+  	<Texture>
+  	  <file>tex//checker.png</file>
+  	</Texture>
+  </textures>
+  <surfaces>
+    <surface class="Triangle">
+      <material class="Lambert">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <texture>2</texture>
+      </material>
+      <v0>-1.0 -1.0 2.0</v0>
+      <v1>1.0  -1.0 0.0</v1>
+      <v2>-1.0 -2.0 0.0</v2>
+      <v0t>0.0 1.0 0.0</v0t>
+      <v1t>1.0 0.0 0.0</v1t>
+      <v2t>0.0 0.0 0.0</v2t></surface>
+    <surface class="Triangle">
+      <material class="Lambert">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <texture>2</texture>
+      </material>
+      <v0>-1.0 -1.0 2.0</v0>
+      <v1>1.0 -1.0 2.0</v1>
+      <v2>1.0 -1.0 0.0</v2>
+      <v0t>0.0 1.0 0.0</v0t>
+      <v1t>1.0 1.0 0.0</v1t>
+      <v2t>1.0 0.0 0.0</v2t></surface>
+    <surface class="Sphere">
+      <material class="Lambert">
+        <diffuse>0.7 1.0 0.7</diffuse>
+        <texture>2</texture>
+      </material>
+      <position>1.5 -0.0 1.0</position>
+      <radius>0.75</radius>
+    </surface>
+  </surfaces>
+</scene>

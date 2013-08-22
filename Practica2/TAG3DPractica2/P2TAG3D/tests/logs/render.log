@@ -1,0 +1,238 @@
+Reading scene: scenes/testBasket.xml
+Rendering...
+Render id(3): (5%)
+Render id(0): (5%)
+Render id(2): (5%)
+Render id(1): (5%)
+Render id(0): (25%)
+Render id(3): (25%)
+Render id(2): (25%)
+Render id(1): (25%)
+Render id(2): (45%)
+Render id(3): (45%)
+Render id(2): (65%)
+Render id(0): (45%)
+Render id(3): (65%)
+Render id(2): (85%)
+Render id(3): (85%)
+Render id(2): (100%)
+Render id(3): (100%)
+Render id(1): (45%)
+Render id(0): (65%)
+Render id(0): (85%)
+Render id(0): (100%)
+Render id(1): (65%)
+Render id(1): (85%)
+Render id(1): (100%)
+SUMA:1024
+Saving image: scenes/testBasket.xml.png
+Render.Time:	0' 25.437"
+Render.Time per pixel(ms):	0,02
+Supersampling id(2): (20%)
+Supersampling id(0): (20%)
+Supersampling id(3): (20%)
+Supersampling id(1): (20%)
+Supersampling id(2): (40%)
+Supersampling id(3): (40%)
+Supersampling id(0): (40%)
+Supersampling id(2): (60%)
+Supersampling id(3): (60%)
+Supersampling id(2): (80%)
+Supersampling id(1): (40%)
+Supersampling id(3): (80%)
+Supersampling id(2): (100%)
+Supersampling id(0): (60%)
+Supersampling id(3): (100%)
+Supersampling id(0): (80%)
+Supersampling id(0): (100%)
+Supersampling id(1): (60%)
+Supersampling id(1): (80%)
+Supersampling id(1): (100%)
+Saving image: scenes/testBasket.xmlsupersampled.png
+
+-= STATS =-
+SCENE:
+Lights:	PointLight	PointLight	PointLight	PointLight	PointLight	PointLight	
+Surfaces:
+	Sphere	Phong
+	Quad	ShinyPhong
+Resolution:	1024	1024
+PARAMS:
+Stoch.sampling:	ON
+Max.recursion:	3
+Num.rayos:	1048576
+Num.rayos.ssamp:	9437184
+Num.samples:	3
+Render.Time:	0' 25.437"
+Render.Time.pixel(ms):	0,02
+SSampling.Time:	3' 33.250"
+SSampling.Time.pixel(ms):	0,20
+Reading scene: scenes/testBillar.xml
+Rendering...
+Render id(3): (5%)
+Render id(0): (5%)
+Render id(1): (5%)
+Render id(2): (5%)
+Render id(3): (25%)
+Render id(0): (25%)
+Render id(1): (25%)
+Render id(3): (45%)
+Render id(2): (25%)
+Render id(0): (45%)
+Render id(3): (65%)
+Render id(1): (45%)
+Render id(3): (85%)
+Render id(2): (45%)
+Render id(3): (100%)
+Render id(0): (65%)
+Render id(2): (65%)
+Render id(1): (65%)
+Render id(0): (85%)
+Render id(1): (85%)
+Render id(0): (100%)
+Render id(2): (85%)
+Render id(1): (100%)
+Render id(2): (100%)
+SUMA:1024
+Saving image: scenes/testBillar.xml.png
+Render.Time:	42' 56.406"
+Render.Time per pixel(ms):	1,97
+Supersampling id(3): (20%)
+Supersampling id(1): (20%)
+Supersampling id(0): (20%)
+Supersampling id(3): (40%)
+Supersampling id(2): (20%)
+Supersampling id(3): (60%)
+Supersampling id(0): (40%)
+Supersampling id(1): (40%)
+Supersampling id(3): (80%)
+Supersampling id(2): (40%)
+Supersampling id(3): (100%)
+Supersampling id(0): (60%)
+Supersampling id(1): (60%)
+Supersampling id(2): (60%)
+Supersampling id(0): (80%)
+Supersampling id(1): (80%)
+Supersampling id(2): (80%)
+Supersampling id(1): (100%)
+Supersampling id(0): (100%)
+Supersampling id(2): (100%)
+Saving image: scenes/testBillar.xmlsupersampled.png
+
+-= STATS =-
+SCENE:
+Lights:	AreaLight	AreaLight	
+Surfaces:
+	Sphere	ShinyPhong
+	Sphere	ShinyPhong
+	Sphere	ShinyPhong
+	Sphere	ShinyPhong
+	Sphere	ShinyPhong
+	Sphere	ShinyPhong
+	Sphere	ShinyPhong
+	Sphere	ShinyPhong
+	Sphere	ShinyPhong
+	Sphere	ShinyPhong
+	Sphere	ShinyPhong
+	Sphere	ShinyPhong
+	Sphere	ShinyPhong
+	Sphere	ShinyPhong
+	Sphere	ShinyPhong
+	Sphere	ShinyPhong
+	Quad	Lambert
+	Quad	Emissive
+	Quad	Emissive
+	Quad	Emissive
+	Quad	Emissive
+	Quad	Emissive
+	Quad	Emissive
+Resolution:	1280	1024
+PARAMS:
+Stoch.sampling:	ON
+Max.recursion:	3
+Num.rayos:	1310720
+Num.rayos.ssamp:	11796480
+Num.samples:	3
+Render.Time:	42' 56.406"
+Render.Time.pixel(ms):	1,97
+SSampling.Time:	393' 33.250"
+SSampling.Time.pixel(ms):	18,02
+Reading scene: scenes/testTenis.xml
+Rendering...
+Render id(0): (5%)
+Render id(1): (5%)
+Render id(2): (5%)
+Render id(3): (5%)
+Render id(0): (25%)
+Render id(1): (25%)
+Render id(2): (25%)
+Render id(3): (25%)
+Render id(0): (45%)
+Render id(1): (45%)
+Render id(2): (45%)
+Render id(3): (45%)
+Render id(0): (65%)
+Render id(1): (65%)
+Render id(2): (65%)
+Render id(3): (65%)
+Render id(0): (85%)
+Render id(1): (85%)
+Render id(2): (85%)
+Render id(0): (100%)
+Render id(3): (85%)
+Render id(2): (100%)
+Render id(1): (100%)
+Render id(3): (100%)
+SUMA:1024
+Saving image: scenes/testTenis.xml.png
+Render.Time:	9' 18.281"
+Render.Time per pixel(ms):	0,43
+Supersampling id(0): (20%)
+Supersampling id(1): (20%)
+Supersampling id(2): (20%)
+Supersampling id(3): (20%)
+Supersampling id(0): (40%)
+Supersampling id(1): (40%)
+Supersampling id(2): (40%)
+Supersampling id(3): (40%)
+Supersampling id(0): (60%)
+Supersampling id(1): (60%)
+Supersampling id(2): (60%)
+Supersampling id(3): (60%)
+Supersampling id(0): (80%)
+Supersampling id(1): (80%)
+Supersampling id(2): (80%)
+Supersampling id(3): (80%)
+Supersampling id(0): (100%)
+Supersampling id(1): (100%)
+Supersampling id(2): (100%)
+Supersampling id(3): (100%)
+Saving image: scenes/testTenis.xmlsupersampled.png
+
+-= STATS =-
+SCENE:
+Lights:	AreaLight	
+Surfaces:
+	Sphere	Phong
+	Sphere	Phong
+	Sphere	Phong
+	Sphere	Phong
+	Sphere	Phong
+	Sphere	Phong
+	Sphere	Phong
+	Sphere	Phong
+	Sphere	Phong
+	Sphere	Phong
+	Sphere	Phong
+	Quad	Lambert
+Resolution:	1280	1024
+PARAMS:
+Stoch.sampling:	ON
+Max.recursion:	3
+Num.rayos:	1310720
+Num.rayos.ssamp:	11796480
+Num.samples:	3
+Render.Time:	9' 18.281"
+Render.Time.pixel(ms):	0,43
+SSampling.Time:	79' 13.15"
+SSampling.Time.pixel(ms):	3,63

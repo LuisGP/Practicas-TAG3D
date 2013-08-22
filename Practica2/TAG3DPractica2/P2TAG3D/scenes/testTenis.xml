@@ -1,0 +1,180 @@
+<scene>
+  <camera>
+    <origin>0.3 0.3 -1.6</origin>
+    <z>0.0 0.5 -1.0</z>
+    <y>0.0 1.0 0.5</y>
+    <yfov>22.0</yfov>
+    <xResolution>1680</xResolution>
+    <yResolution>1050</yResolution>
+  </camera>
+  <lights>
+      <light class="AreaLight">
+      <intensity>0.9 0.9 0.9</intensity>
+      <position>5.0 5.0 -5.0</position>
+      <nsamples>5</nsamples>
+      <shape>Sphere</shape>
+      <size>2.5</size>
+    </light>
+  </lights>
+  <textures>
+  	<Texture>
+  	  <file>tenis.png</file>
+  	  <filter>1</filter>
+  	</Texture>
+  	<Texture>
+  	  <file>tenisnormal.jpg</file>
+  	</Texture>
+  	<Texture>
+  	  <file>arena.jpg</file>
+  	</Texture>
+  </textures>
+  <surfaces>
+  	<surface class="Sphere">
+     <material class="Phong">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <specular>0.1 0.1 0.1</specular>
+        <exponent>1</exponent>
+        <texture>0</texture>
+      </material>
+      <position>0.0 -0.4 0.0</position> <!-- posicion -->
+      <radius>0.1</radius>
+      <bTexture>1</bTexture>
+      <toffset>0.35 0.0 0.0</toffset>
+    </surface>
+    <surface class="Sphere">
+     <material class="Phong">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <specular>0.1 0.1 0.1</specular>
+        <exponent>1</exponent>
+        <texture>0</texture>
+      </material>
+      <position>0.2 -0.9 0.2</position> <!-- posicion -->
+      <radius>0.1</radius>
+      <bTexture>1</bTexture>
+      <toffset>0.15 0.0 0.0</toffset>
+    </surface>
+    <surface class="Sphere">
+     <material class="Phong">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <specular>0.1 0.1 0.1</specular>
+        <exponent>1</exponent>
+        <texture>0</texture>
+      </material>
+      <position>-0.4 -0.9 0.12</position> <!-- posicion -->
+      <radius>0.1</radius>
+      <bTexture>1</bTexture>
+      <toffset>0.10 -0.1 0.0</toffset>
+    </surface>
+    <surface class="Sphere">
+     <material class="Phong">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <specular>0.1 0.1 0.1</specular>
+        <exponent>1</exponent>
+        <texture>0</texture>
+      </material>
+      <position>0.8 -0.9 -0.25</position> <!-- posicion -->
+      <radius>0.1</radius>
+      <bTexture>1</bTexture>
+      <toffset>0.65 0.0 0.0</toffset>
+    </surface>
+    <surface class="Sphere">
+     <material class="Phong">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <specular>0.1 0.1 0.1</specular>
+        <exponent>1</exponent>
+        <texture>0</texture>
+      </material>
+      <position>-0.1 -0.9 0.05</position> <!-- posicion -->
+      <radius>0.1</radius>
+      <bTexture>1</bTexture>
+      <toffset>0.35 0.1 0.00</toffset>
+    </surface>
+        <surface class="Sphere">
+     <material class="Phong">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <specular>0.1 0.1 0.1</specular>
+        <exponent>1</exponent>
+        <texture>0</texture>
+      </material>
+      <position>0.52 -0.9 0.25</position> <!-- posicion -->
+      <radius>0.1</radius>
+      <bTexture>1</bTexture>
+      <toffset>-0.15 0.5 0.0</toffset>
+    </surface>
+    <surface class="Sphere">
+     <material class="Phong">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <specular>0.1 0.1 0.1</specular>
+        <exponent>1</exponent>
+        <texture>0</texture>
+      </material>
+      <position>0.3 -0.9 0.5</position> <!-- posicion -->
+      <radius>0.1</radius>
+      <bTexture>1</bTexture>
+      <toffset>0.6 0.05 0.0</toffset>
+    </surface>
+    <surface class="Sphere">
+     <material class="Phong">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <specular>0.1 0.1 0.0</specular>
+        <exponent>1</exponent>
+        <texture>0</texture>
+      </material>
+      <position>0.9 -0.9 1.0</position> <!-- posicion -->
+      <radius>0.1</radius>
+      <bTexture>1</bTexture>
+      <toffset>0.0 0.05 1.0</toffset>
+    </surface>
+    <surface class="Sphere">
+     <material class="Phong">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <specular>0.1 0.1 0.1</specular>
+        <exponent>1</exponent>
+        <texture>0</texture>
+      </material>
+      <position>1.2 -0.9 0.6</position> <!-- posicion -->
+      <radius>0.1</radius>
+      <bTexture>1</bTexture>
+      <toffset>0.5 -0.05 1.0</toffset>
+    </surface>
+    <surface class="Sphere">
+     <material class="Phong">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <specular>0.1 0.1 0.1</specular>
+        <exponent>1</exponent>
+        <texture>0</texture>
+      </material>
+      <position>-0.7 -0.9 0.6</position> <!-- posicion -->
+      <radius>0.1</radius>
+      <bTexture>1</bTexture>
+      <toffset>0.31 0.05 1.0</toffset>
+    </surface>
+    <surface class="Sphere">
+     <material class="Phong">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <specular>0.1 0.1 0.1</specular>
+        <exponent>1</exponent>
+        <texture>0</texture>
+      </material>
+      <position>-0.9 -0.9 0.3</position> <!-- posicion -->
+      <radius>0.1</radius>
+      <bTexture>1</bTexture>
+      <toffset>0.71 -0.05 1.0</toffset>
+    </surface>
+    <surface class="Quad">
+       <material class="Lambert">
+         <diffuse>0.77 0.47 0.27</diffuse>
+       </material>
+       <v0>-20.0 -1.0 -20.0</v0>
+       <v1>-20.0  -1.0 20.0</v1>
+       <v2>20.0 -1.0 20.0</v2>
+       <v3>20.0 -1.0 -20.0</v3>
+       <v0t>0.0 0.0 0.0</v0t>
+       <v1t>0.0 1.0 0.0</v1t>
+       <v2t>1.0 1.0 0.0</v2t>
+       <v3t>1.0 0.0 0.0</v3t>
+       <bTexture>2</bTexture>
+       <tscale>60.0 60.0 0.0</tscale>
+    </surface> 
+  </surfaces>
+</scene>

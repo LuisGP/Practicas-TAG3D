@@ -1,0 +1,379 @@
+<scene>
+  <camera>
+    <origin>0.0 0.1 -2.5</origin>
+    <z>0.0 -0.2 -1.0</z>
+    <y>0.0 1.0 0.2</y>
+    <yfov>8.0</yfov>
+    <xResolution>1680</xResolution>
+    <yResolution>1050</yResolution>
+    <compatMode>0</compatMode>
+  </camera>
+  <lights>
+    <light class="AreaLight">
+      <intensity>0.5 0.5 0.5</intensity>
+      <position>0.0 1 -1</position>
+      <shape>Sphere</shape>
+	  <size>0.5</size>
+	</light>
+    <light class="AreaLight">
+      <intensity>0.5 0.5 0.5</intensity>
+      <position>0.0 1 0</position>
+      <shape>Sphere</shape>
+	  <size>0.5</size>
+	</light>
+  </lights>
+  <textures>
+    <Texture>
+  	  <file>env//top.jpg</file>
+  	</Texture>
+  	<Texture>
+  	  <file>env//down.jpg</file>
+  	</Texture>
+  	<Texture>
+  	  <file>env//front.jpg</file>
+  	</Texture>
+  	<Texture>
+  	  <file>env//back.jpg</file>
+  	</Texture>
+  	<Texture>
+  	  <file>env//left.jpg</file>
+  	</Texture>
+  	<Texture>
+  	  <file>env//right.jpg</file>
+  	</Texture>
+    <Texture>
+  	  <file>billar//ball1.jpg</file>
+  	</Texture>
+    <Texture>
+  	  <file>billar//ball2.jpg</file>
+  	</Texture>
+    <Texture>
+  	  <file>billar//ball3.jpg</file>
+  	</Texture>
+    <Texture>
+  	  <file>billar//ball4.jpg</file>
+  	</Texture>
+    <Texture>
+  	  <file>billar//ball5.jpg</file>
+  	</Texture>
+    <Texture>
+  	  <file>billar//ball6.jpg</file>
+  	</Texture>
+    <Texture>
+  	  <file>billar//ball7.jpg</file>
+  	</Texture>
+    <Texture>
+  	  <file>billar//ball8.jpg</file>
+  	</Texture>
+    <Texture>
+  	  <file>billar//ball9.jpg</file>
+  	</Texture>
+    <Texture>
+  	  <file>billar//ball10.jpg</file>
+  	</Texture>
+    <Texture>
+  	  <file>billar//ball11.jpg</file>
+  	</Texture>
+    <Texture>
+  	  <file>billar//ball12.jpg</file>
+  	</Texture>
+    <Texture>
+  	  <file>billar//ball13.jpg</file>
+  	</Texture>
+    <Texture>
+  	  <file>billar//ball14.jpg</file>
+  	</Texture>
+    <Texture>
+  	  <file>billar//ball15.jpg</file>
+  	</Texture>
+  </textures>
+  <surfaces>
+	<surface class="Sphere">
+      <material class="ShinyPhong">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>100.0</exponent>
+        <reflection>0.1 0.1 0.1</reflection>
+      </material>
+      <position>0.0 -0.4 -0.5</position>
+      <radius>0.1</radius>
+    </surface>
+	<surface class="Sphere">
+      <material class="ShinyPhong">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>100.0</exponent>
+        <reflection>0.1 0.1 0.1</reflection>
+        <texture>6</texture>
+        <toffset>0.6 0.0 0.0</toffset>
+      </material>
+      <position>0.0 -0.4 0.0</position>
+      <radius>0.1</radius>
+    </surface>
+	<surface class="Sphere">
+      <material class="ShinyPhong">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>100.0</exponent>
+        <reflection>0.1 0.1 0.1</reflection>
+        <texture>7</texture>
+        <toffset>0.7 0.0 0.0</toffset>
+      </material>
+      <position>0.1 -0.4 0.2</position>
+      <radius>0.1</radius>
+    </surface>
+	<surface class="Sphere">
+      <material class="ShinyPhong">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>100.0</exponent>
+        <reflection>0.1 0.1 0.1</reflection>
+        <texture>8</texture>
+        <toffset>0.7 0.0 0.0</toffset>
+      </material>
+      <position>-0.1 -0.4 0.2</position>
+      <radius>0.1</radius>
+    </surface>
+	<surface class="Sphere">
+      <material class="ShinyPhong">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>100.0</exponent>
+        <reflection>0.1 0.1 0.1</reflection>
+        <texture>9</texture>
+        <toffset>0.7 0.0 0.0</toffset>
+      </material>
+      <position>0.2 -0.4 0.4</position>
+      <radius>0.1</radius>
+    </surface>    
+	<surface class="Sphere">
+      <material class="ShinyPhong">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>100.0</exponent>
+        <reflection>0.1 0.1 0.1</reflection>
+        <texture>10</texture>
+        <toffset>0.7 0.0 0.0</toffset>
+      </material>
+      <position>0.0 -0.4 0.4</position>
+      <radius>0.1</radius>
+    </surface>    
+	<surface class="Sphere">
+      <material class="ShinyPhong">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>100.0</exponent>
+        <reflection>0.1 0.1 0.1</reflection>
+        <texture>11</texture>
+        <toffset>0.7 0.0 0.0</toffset>
+      </material>
+      <position>-0.2 -0.4 0.4</position>
+      <radius>0.1</radius>
+    </surface>    
+	<surface class="Sphere">
+      <material class="ShinyPhong">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>100.0</exponent>
+        <reflection>0.1 0.1 0.1</reflection>
+        <texture>12</texture>
+        <toffset>0.7 0.0 0.0</toffset>
+      </material>
+      <position>0.3 -0.4 0.6</position>
+      <radius>0.1</radius>
+    </surface>    
+	<surface class="Sphere">
+      <material class="ShinyPhong">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>100.0</exponent>
+        <reflection>0.1 0.1 0.1</reflection>
+        <texture>13</texture>
+        <toffset>0.7 0.0 0.0</toffset>
+      </material>
+      <position>0.1 -0.4 0.6</position>
+      <radius>0.1</radius>
+    </surface>    
+	<surface class="Sphere">
+      <material class="ShinyPhong">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>100.0</exponent>
+        <reflection>0.1 0.1 0.1</reflection>
+        <texture>14</texture>
+        <toffset>0.7 0.0 0.0</toffset>
+      </material>
+      <position>-0.1 -0.4 0.6</position>
+      <radius>0.1</radius>
+    </surface>   
+	<surface class="Sphere">
+      <material class="ShinyPhong">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>100.0</exponent>
+        <reflection>0.1 0.1 0.1</reflection>
+        <texture>15</texture>
+        <toffset>0.7 0.0 0.0</toffset>
+      </material>
+      <position>-0.3 -0.4 0.6</position>
+      <radius>0.1</radius>
+    </surface>   
+	<surface class="Sphere">
+      <material class="ShinyPhong">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>100.0</exponent>
+        <reflection>0.1 0.1 0.1</reflection>
+        <texture>16</texture>
+        <toffset>0.7 0.0 0.0</toffset>
+      </material>
+      <position>0.4 -0.4 0.8</position>
+      <radius>0.1</radius>
+    </surface>    
+	<surface class="Sphere">
+      <material class="ShinyPhong">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>100.0</exponent>
+        <reflection>0.1 0.1 0.1</reflection>
+        <texture>17</texture>
+        <toffset>0.7 0.0 0.0</toffset>
+      </material>
+      <position>0.2 -0.4 0.8</position>
+      <radius>0.1</radius>
+    </surface>    
+	<surface class="Sphere">
+      <material class="ShinyPhong">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>100.0</exponent>
+        <reflection>0.1 0.1 0.1</reflection>
+        <texture>17</texture>
+        <toffset>0.7 0.0 0.0</toffset>
+      </material>
+      <position>0.0 -0.4 0.8</position>
+      <radius>0.1</radius>
+    </surface>    
+	<surface class="Sphere">
+      <material class="ShinyPhong">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>100.0</exponent>
+        <reflection>0.1 0.1 0.1</reflection>
+        <texture>18</texture>
+        <toffset>0.7 0.0 0.0</toffset>
+      </material>
+      <position>-0.2 -0.4 0.8</position>
+      <radius>0.1</radius>
+    </surface>    
+	<surface class="Sphere">
+      <material class="ShinyPhong">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <specular>0.7 0.7 0.7</specular>
+        <exponent>100.0</exponent>
+        <reflection>0.1 0.1 0.1</reflection>
+        <texture>19</texture>
+        <toffset>0.7 0.0 0.0</toffset>
+      </material>
+      <position>-0.4 -0.4 0.8</position>
+      <radius>0.1</radius>
+    </surface>    
+    <surface class="Quad">
+      <material class="Lambert">
+        <diffuse>0.3 1.0 0.3</diffuse>
+      </material>
+      <v0>-1.0 -0.5 -5.0</v0>
+      <v1>-1.0 -0.5 5.0</v1>
+      <v2>1.0 -0.5 5.0</v2>
+      <v3>1.0 -0.5 -5.0</v3> 
+      <v0t>0.0 0.0 0.0</v0t>
+      <v1t>0.0 1.0 0.0</v1t>
+      <v2t>1.0 1.0 0.0</v2t>
+      <v3t>1.0 0.0 0.0</v3t> 
+    </surface>
+    <surface class="Quad">
+      <material class="Emissive">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <texture>1</texture>
+      </material>
+      <v0>-10.0 -10.0 -10.0</v0>
+      <v1>-10.0 -10.0 10.0</v1>
+      <v2>10.0 -10.0 10.0</v2>
+      <v3>10.0 -10.0 -10.0</v3> 
+      <v0t>0.0 0.0 0.0</v0t>
+      <v1t>0.0 1.0 0.0</v1t>
+      <v2t>1.0 1.0 0.0</v2t>
+      <v3t>1.0 0.0 0.0</v3t> 
+    </surface>
+    <surface class="Quad">
+      <material class="Emissive">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <texture>0</texture>
+      </material>
+      <v0>-10.0 10.0 -10.0</v0>
+      <v1>-10.0 10.0 10.0</v1>
+      <v2>10.0 10.0 10.0</v2>
+      <v3>10.0 10.0 -10.0</v3> 
+      <v0t>0.0 0.0 0.0</v0t>
+      <v1t>0.0 1.0 0.0</v1t>
+      <v2t>1.0 1.0 0.0</v2t>
+      <v3t>1.0 0.0 0.0</v3t> 
+    </surface>    
+    <surface class="Quad">
+      <material class="Emissive">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <texture>2</texture>
+      </material>
+      <v0>-10.0 -10.0 10.0</v0>
+      <v1>-10.0 10.0 10.0</v1>
+      <v2>10.0 10.0 10.0</v2>
+      <v3>10.0 -10.0 10.0</v3> 
+      <v0t>0.0 0.0 0.0</v0t>
+      <v1t>0.0 1.0 0.0</v1t>
+      <v2t>1.0 1.0 0.0</v2t>
+      <v3t>1.0 0.0 0.0</v3t> 
+    </surface>  
+    <surface class="Quad">
+      <material class="Emissive">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <texture>3</texture>
+      </material>
+      <v0>-10.0 -10.0 -10.0</v0>
+      <v1>-10.0 10.0 -10.0</v1>
+      <v2>10.0 10.0 -10.0</v2>
+      <v3>10.0 -10.0 -10.0</v3> 
+      <v0t>1.0 0.0 0.0</v0t>
+      <v1t>1.0 1.0 0.0</v1t>
+      <v2t>0.0 1.0 0.0</v2t>
+      <v3t>0.0 0.0 0.0</v3t> 
+    </surface>  
+    <surface class="Quad">
+      <material class="Emissive">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <texture>4</texture>
+      </material>
+      <v0>-10.0 -10.0 -10.0</v0>
+      <v1>-10.0 -10.0 10.0</v1>
+      <v2>-10.0 10.0 10.0</v2>
+      <v3>-10.0 10.0 -10.0</v3> 
+      <v0t>0.0 0.0 0.0</v0t>
+      <v1t>1.0 0.0 0.0</v1t>
+      <v2t>1.0 1.0 0.0</v2t>
+      <v3t>0.0 1.0 0.0</v3t> 
+    </surface>  
+    <surface class="Quad">
+      <material class="Emissive">
+        <diffuse>1.0 1.0 1.0</diffuse>
+        <texture>5</texture>
+      </material>
+      <v0>10.0 -10.0 -10.0</v0>
+      <v1>10.0 -10.0 10.0</v1>
+      <v2>10.0 10.0 10.0</v2>
+      <v3>10.0 10.0 -10.0</v3> 
+      <v0t>1.0 0.0 0.0</v0t>
+      <v1t>0.0 0.0 0.0</v1t>
+      <v2t>0.0 1.0 0.0</v2t>
+      <v3t>1.0 1.0 0.0</v3t> 
+    </surface>  
+  </surfaces>
+</scene>
